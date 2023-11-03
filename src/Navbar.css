@@ -1,0 +1,41 @@
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+/* Style your list items if needed */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Style your links if needed */
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* You can customize these styles further as per your design preferences. */
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px; /* Optional padding for the entire navbar */
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0; /* Remove default list padding */
+  list-style: none;
+  margin: 0; /* Remove default list margin */
+}
+
+.nav-list li {
+  margin: 0 10px; /* Adjust margin for equal spacing */
+}
